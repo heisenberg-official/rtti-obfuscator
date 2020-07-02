@@ -105,7 +105,7 @@ int main(int argc, char* argv[])
 	catch (std::exception &e)
 	{
 		cout << e.what() << endl;
-		system("pause");
+		scanf(%d,&temp);
 		return 1;
 	}
 
